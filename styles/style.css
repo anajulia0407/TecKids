@@ -1,0 +1,182 @@
+@import "tailwindcss";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fefef2;
+}
+h1{
+    color: #0e0c0c;
+    font-size: 45px;
+    text-shadow: 2px 2px 0px #1111111e;
+}
+
+@media (max-width:750px){
+    h1{
+        font-size: 30px;
+        text-align: start;
+        padding: 2px;
+    }
+}
+
+#navegação{
+    padding: 15px;
+    font-size: 25px;
+    text-shadow: 2px 2px 0px #1111111c;
+}
+@media (max-width:750px){
+    #navegação{
+        font-size: 20px;
+    }
+}
+
+#title, #navegação{
+    min-height: 40px;
+    background-image: linear-gradient(to right, #01dcba, #7f30cb, #01dcba);
+    padding: 12px;
+    text-align: center;
+}
+
+@media (max-width:1050px){
+    #title, #navegação{
+        padding: 8px;
+    }
+}
+
+@media (max-width:750px){
+    #title, #navegação{
+        padding: 2px;
+        
+    }
+}
+
+#header a:link, #header a:visited{
+    color: #111111;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: #01dcba;
+    text-decoration: none;  
+    transition-duration: 0.5s;
+}
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #000;
+}
+
+
+@media (max-width: 600px) {
+  #footer {
+    font-size: 15px;
+    padding: 8px 10px;
+  }
+}
+
+.fundo{
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+
+ .fundo img {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    position: relative;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+@media (max-width:1050px){
+    .fundo img{
+        justify-content: center;
+        align-items: center;
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 750px){
+    .fundo img{
+        justify-content: center;
+        align-items: center;
+        margin-top: 55%;
+        
+    }
+}
+
+
+
+.começar{
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 18px;
+  background-color: #9d4edd;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  width: 6%;
+  
+}
+
+
+@media (max-width: 1278px) {
+  .começar {
+    font-size: 20px;
+    width: 12%;
+  }
+}
+
+@media (max-width: 1055px) {
+  .começar {
+    font-size: 20px;
+    width: 12%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .começar {
+    font-size: 20px;
+    width: 12%;
+  }
+}
+
+
+
+@media (max-width:750px){
+    .começar{
+        font-size: 10px;
+        padding: 7px;
+        width: 12%;
+        top: 40%;
+        left: 50%;
+        
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,177 @@
+@import "tailwindcss";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fefef2;
+}
+h1{
+    color: #0e0c0c;
+    font-size: 45px;
+    text-shadow: 2px 2px 0px #1111111e;
+}
+
+@media (max-width:750px){
+    h1{
+        font-size: 30px;
+        text-align: start;
+        padding: 2px;
+    }
+}
+
+#navegação{
+    padding: 15px;
+    font-size: 25px;
+    text-shadow: 2px 2px 0px #1111111c;
+}
+@media (max-width:750px){
+    #navegação{
+        font-size: 20px;
+    }
+}
+
+#title, #navegação{
+    min-height: 40px;
+    background-image: linear-gradient(to right, #01dcba, #7f30cb, #01dcba);
+    padding: 12px;
+    text-align: center;
+}
+
+@media (max-width:1050px){
+    #title, #navegação{
+        padding: 8px;
+    }
+}
+
+@media (max-width:750px){
+    #title, #navegação{
+        padding: 2px;
+        
+    }
+}
+
+#header a:link, #header a:visited{
+    color: #111111;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: #01dcba;
+    text-decoration: none;  
+    transition-duration: 0.5s;
+}
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #000;
+}
+
+
+@media (max-width: 600px) {
+  #footer {
+    font-size: 15px;
+    padding: 8px 10px;
+  }
+}
+
+
+#form{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+@media (max-width:500px){
+    #form{
+        text-align: start;
+        padding: 5%;
+    }
+}
+/* Estiliza os campos do formulário */
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #222220 ;
+  background-color: #fefaee;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+@media (max-width:500px){
+    input[type="text"]{
+        width: 90%;
+    }
+}
+
+/* Estiliza os campos do formulário */
+textarea{
+  width: 49%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #222220 ;
+  background-color: #fefaee;
+  border-radius: 4px;
+  margin-left: 2%;
+}
+
+@media (max-width:500px){
+    textarea{
+        width: 84%;
+        margin-left: 1%;
+    }
+}
+
+/* Estiliza os campos do formulário */
+label{
+    margin-right: 2%;
+}
+/* Estiliza os campos do formulário */
+button{
+  width: 15%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #222220 ;
+  background-color: #fefaee;
+  border-radius: 4px;
+  margin-right: 34%;
+  box-sizing: border-box;
+  cursor: pointer; 
+}
+
+@media (max-width:500px){
+    button{
+        width: 30%;
+        margin-left: 1%;
+    }
+}
+
+/* Estiliza a area onde vai o conteúdo*/
+#content{
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #9c5eda9a;
+    border-radius: 50px;
+    width: 550px;
+    height: 450px;
+    margin-top: 8%;
+    border: 1px solid rgb(4, 54, 4);  
+}
+    
+
+@media  (max-width: 500px){
+    #content{
+        margin-top: 50%;
+        width: 350px;
+        border-radius: 15px;    
+}
+}
